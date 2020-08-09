@@ -1,0 +1,13 @@
+import java.io.FileWriter;
+import java.io.*;
+
+public class WriteInsideFile {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		FileWriter fw=new FileWriter("D://san/hello.txt");
+
+	}
+
+}

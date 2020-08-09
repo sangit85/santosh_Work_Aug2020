@@ -1,0 +1,20 @@
+import java.io.*;
+
+public class WriteInsideFile {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		try {
+			FileWriter fw=new FileWriter("D://san/name.txt");
+			fw.write("Hello World");
+			System.out.println("Writing is complete");
+			fw.close();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
+
+}

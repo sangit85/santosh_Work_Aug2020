@@ -1,0 +1,13 @@
+
+public class ArrayExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int [] arr={12,34,56,78};
+		
+		int[] arr=new int[3];
+
+	}
+
+}

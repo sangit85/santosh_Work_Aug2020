@@ -1,0 +1,17 @@
+import java.util.HashMap;
+
+public class MapExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		HashMap m <Integer, String>=new HashMap<Integer,String>();
+		m.put(101, "abc");
+		m.put(102, "xyz");
+		m.put(103, "delhi");
+		
+		
+
+	}
+
+}
